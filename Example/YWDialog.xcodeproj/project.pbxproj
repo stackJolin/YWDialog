@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		4B2E1979C96704A19F1B37C7 /* Pods_YWDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		506AD661E3E841CE059FF8AB /* YWDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YWDialog.podspec; path = ../YWDialog.podspec; sourceTree = "<group>"; };
-		5C727E4FD2B9CD4E5909980D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		506AD661E3E841CE059FF8AB /* YWDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YWDialog.podspec; path = ../YWDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C727E4FD2B9CD4E5909980D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YWDialog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWDialog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77A4D2F75D31E4360CB6262F /* Pods-YWDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWDialog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWDialog_Tests/Pods-YWDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E866C3268EAD7418D7EB307 /* Pods-YWDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWDialog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWDialog_Example/Pods-YWDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		81A2987BA2CC08D8FA6D50FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		81A2987BA2CC08D8FA6D50FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A43093E5524DE93BF8A7E462 /* Pods-YWDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWDialog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWDialog_Tests/Pods-YWDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C66144E1B34C3735272F8026 /* Pods_YWDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
