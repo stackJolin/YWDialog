@@ -1,0 +1,6 @@
+framework module Pods_YWDialog_Example {
+  umbrella header "Pods-YWDialog_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

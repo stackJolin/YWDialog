@@ -1,0 +1,22 @@
+{
+  "name": "YWDialog",
+  "version": "0.1.0",
+  "summary": "A short description of YWDialog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/601584870@qq.com/YWDialog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "601584870@qq.com": "601584870@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/601584870@qq.com/YWDialog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YWDialog/Classes/**/*"
+}

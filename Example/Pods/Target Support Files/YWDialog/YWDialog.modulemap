@@ -1,0 +1,6 @@
+framework module YWDialog {
+  umbrella header "YWDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}
