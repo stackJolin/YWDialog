@@ -24,6 +24,9 @@ pod 'YWDialog'
 
 601584870@qq.com, 601584870@qq.com
 
+## How to use
+pod 'YWDialog'
+
 ## License
 
 YWDialog is available under the MIT license. See the LICENSE file for more info.
