@@ -24,7 +24,11 @@ pod 'YWDialog'
 
 601584870@qq.com, 601584870@qq.com
 
-## How to use
+## usage
+OC标准语法-AlertDialog
+链式语法参考-Dialog
+
+## pod
 pod 'YWDialog'
 
 ## License
