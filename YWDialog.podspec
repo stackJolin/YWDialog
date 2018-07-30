@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/stackJolin/YWDialog'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '601584870@qq.com' => '601584870@qq.com' }
-  s.source           = { :git => 'https://github.com/601584870@qq.com/YWDialog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/stackJolin/YWDialog.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
