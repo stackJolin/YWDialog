@@ -1,1 +1,1 @@
-../../../../../YWDialog/Classes/YWDialog.h
+../../../../../YWDialog/Classes/source/YWDialog.h

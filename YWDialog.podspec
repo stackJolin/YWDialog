@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'YWDialog/Classes/**/*.{h,m,mm,hpp,cpp,c}'
   
-  s.prefix_header_file = 'YWDialog/Classes/YWDialog.h'
+  s.prefix_header_file = 'YWDialog/Classes/source/YWDialog.h'
   s.frameworks = 'UIKit','Foundation'
 end

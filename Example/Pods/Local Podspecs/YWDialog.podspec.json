@@ -18,7 +18,7 @@
     "ios": "8.0"
   },
   "source_files": "YWDialog/Classes/**/*.{h,m,mm,hpp,cpp,c}",
-  "prefix_header_file": "YWDialog/Classes/YWDialog.h",
+  "prefix_header_file": "YWDialog/Classes/source/YWDialog.h",
   "frameworks": [
     "UIKit",
     "Foundation"
