@@ -7,472 +7,305 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		132D546B6833D0B956A79E2E3D58E522 /* Pods-YWDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2BDEEF5F0C6E560D276364595E1A07 /* Pods-YWDialog_Example-dummy.m */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		1F2B9C1CD6AACA5AEE3C029BC6B8BE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		2EC14082C99216877A10DC35657F3F59 /* Pods-YWDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E42292F11B1D38847B4BA8CFC29F4B /* Pods-YWDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4F51BA2578392C49DB482071A1B100BF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 33393E6821BFAD3B21015B844A9B92DA /* ReplaceMe.m */; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
-		5308F60D61418ADC8AEB6BCBCC3A41D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		76B11DEA7835D68AC1A97EF97DDFC8CC /* YWDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFE2E8F88849D7562D600EA7F092496 /* YWDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
-		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
-		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B80583CE5807D1B4F7E8148AC32A4E41 /* YWDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B53A079778AC5C09AF9E65C214FDA /* YWDialog-dummy.m */; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		CC736126C5AA745D881237D91E4C5BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		F81355C6AB5EC231B71147AC62929FBE /* Pods-YWDialog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3E456556E687AA25A6928D6EA91123 /* Pods-YWDialog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8DDDFF9834FB5F0A5D26328F97FA2D2 /* Pods-YWDialog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F903AB0CFF49B96EEC1C4B52135778F4 /* Pods-YWDialog_Tests-dummy.m */; };
+		024312B8831BEDB22F3BCEC56EA539A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		036BB3626AB25EA055B7A6D93820F6E8 /* AlertControllerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1B85C9FD501456BE953EFD5074D552 /* AlertControllerInfo.m */; };
+		04EBCA2AE62BA19DF83C0C5C2959149F /* YWDialogHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AE21613F3761AD5CDD0136148E51984E /* YWDialogHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AC050698FBEEFEEDFD429EB3EB0BF27 /* UIAlertController+Window.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CB1A24AB5205067E26A9C0FC74ED86 /* UIAlertController+Window.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CA91A6E3741E87DB2F1AC3FFBEFBFDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		13E3A104344034F6D2570D6119C929A6 /* AlertDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEAF612A5019232DC9BB7A44C28D619 /* AlertDialog.m */; };
+		2790895CEBDA7679174181F8815CB533 /* AlertControllerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F392BED7669B8C3089AE0BC541714A /* AlertControllerInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27CFCF967BF75C155B7DD51DFD4CB47C /* UIAlertController+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1C2A1152055FA711B083D495B12B70 /* UIAlertController+Window.m */; };
+		32B12519DFFE4F6AEE83666F61D86D29 /* AlertBackWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F306B248C27C3B3C1679256EF406E525 /* AlertBackWindow.m */; };
+		38A548C5B18DABEEEC4CC7F00D11F887 /* YWDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = EA02C4FF2F9A1BFD8ED0A8B248D91451 /* YWDialog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59FDB962ACE4963930A33EFCBF80C8E4 /* AlertDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C9FB6D5E589C8E43CF9A7B47FD2634 /* AlertDialog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		605DFF0BC610025F4A52ED2E182823CC /* YWDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EBFCBA78F78044AB837DFDC579BD00 /* YWDialog-dummy.m */; };
+		68CA71E67253C8EE8B9729205A8A7BA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6E20B5BC2DB771416BBBC80AFEA8CE84 /* YWDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E799930B66B9465D620C48BA4F87AA0 /* YWDialog.m */; };
+		9F3EA52336543337F9F50E9BA86DC1B4 /* AlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A543DE97A7696192363340C8CB1E8D2D /* AlertAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E38D457E568D23F5577CBD9D1B98B434 /* AlertActionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F2290601CB8D7ECA1BACFC52908C6F /* AlertActionProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7B67938FDD3C7F209306315336AB7FD /* Pods-YWDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D003BD486D7B12DDA356124240273C2 /* Pods-YWDialog_Example-dummy.m */; };
+		F9F84C6EDC5ED904CC324966A7BE6F04 /* AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F109AFC5934892153993B1DF7A1A2817 /* AlertAction.m */; };
+		FF985615C155A3C4C2B61BA8FEC1EFDC /* AlertBackWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C79FDAAD22F6D024055DA83EC96946E5 /* AlertBackWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D3AF32A422EB2B3E90886D8B972A90A /* PBXContainerItemProxy */ = {
+		90DF73E15251B6D9AA93976D044312FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FC198C98886CA6A37922F8BEF910F0C;
-			remoteInfo = "Pods-YWDialog_Example";
-		};
-		942A3A6E96D5B4C59E03612D40836403 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B5C5A70E9E2EFA8938EF7605CBC0F66;
+			remoteGlobalIDString = 5C554D1540DF08A2CE22605AF75B5AC3;
 			remoteInfo = YWDialog;
 		};
-		FF29A57E67572F24252A3B25B7C7484E /* PBXContainerItemProxy */ = {
+		B924984644D5469814F545F306F3BF4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
-			remoteInfo = FBSnapshotTestCase;
+			remoteGlobalIDString = B3F5C5CB2011B2483D7068F9EF2DBDFA;
+			remoteInfo = "YWDialog-YWDialog";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		067DE8C5512AF24F46CA87C911007E9E /* Pods-YWDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0AFE2E8F88849D7562D600EA7F092496 /* YWDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWDialog-umbrella.h"; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0BB4577829EBAB3E8445039C0D45C89D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E368B8BB8A30B9932962CC19E10FEC3 /* Pods-YWDialog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWDialog_Tests-resources.sh"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		155C6F2E59DDC5E8B629B639D858A4DD /* Pods-YWDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YWDialog_Example.modulemap"; sourceTree = "<group>"; };
-		181B53A079778AC5C09AF9E65C214FDA /* YWDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWDialog-dummy.m"; sourceTree = "<group>"; };
-		19D0247121721C16BCDF3D470CE942C4 /* YWDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YWDialog.framework; path = YWDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		203F39C9F2DAE7D8D0E3060DC8087ADA /* Pods-YWDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		20769FD8085CCEE0149C31174AFDC50F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		30B4BCC798BDA9BF6AAA55218458E06A /* Pods-YWDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		33393E6821BFAD3B21015B844A9B92DA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YWDialog/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DA29CCC7D5A50315498CD4BC331C541 /* Pods_YWDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YWDialog_Example.framework; path = "Pods-YWDialog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		40833EED53E2465162CEF4AD762F667A /* Pods-YWDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		4C655A7188300F157504EA35DE02CC57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5ABD24BBB59A18B6B0C2524BC66725AF /* Pods-YWDialog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWDialog_Example-resources.sh"; sourceTree = "<group>"; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67E42292F11B1D38847B4BA8CFC29F4B /* Pods-YWDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YWDialog_Example-umbrella.h"; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		86A81781378D22BA190D863FE5533448 /* Pods-YWDialog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWDialog_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		91F1BDF1DED97E30B0FA5727D7FC60C9 /* YWDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWDialog-prefix.pch"; sourceTree = "<group>"; };
+		02C9FB6D5E589C8E43CF9A7B47FD2634 /* AlertDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertDialog.h; sourceTree = "<group>"; };
+		0F02E85EB5ACA149EB38AECB4C6B3204 /* YWDialog.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YWDialog.bundle; path = "YWDialog-YWDialog.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E799930B66B9465D620C48BA4F87AA0 /* YWDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YWDialog.m; sourceTree = "<group>"; };
+		2C1C2A1152055FA711B083D495B12B70 /* UIAlertController+Window.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Window.m"; sourceTree = "<group>"; };
+		379B166A7CF8084BAB3DF799376CDE11 /* YWDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWDialog.xcconfig; sourceTree = "<group>"; };
+		40F2290601CB8D7ECA1BACFC52908C6F /* AlertActionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertActionProtocol.h; sourceTree = "<group>"; };
+		57EBFCBA78F78044AB837DFDC579BD00 /* YWDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWDialog-dummy.m"; sourceTree = "<group>"; };
+		5ABEC17482103D4C9142EF4226541A09 /* libYWDialog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYWDialog.a; path = libYWDialog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6101393DFECB81441CD23EBD2ADC95A1 /* ResourceBundle-YWDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YWDialog-Info.plist"; sourceTree = "<group>"; };
+		663FA9C72F9D30F627ABD67E9879CAD2 /* Pods-YWDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6D003BD486D7B12DDA356124240273C2 /* Pods-YWDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWDialog_Example-dummy.m"; sourceTree = "<group>"; };
+		6FEA9496D73A2AB2E01BD440E421A779 /* libPods-YWDialog_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YWDialog_Example.a"; path = "libPods-YWDialog_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1B85C9FD501456BE953EFD5074D552 /* AlertControllerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertControllerInfo.m; sourceTree = "<group>"; };
+		7EFFAF933836EE83F3530CFC54B2DFF0 /* YWDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWDialog-prefix.pch"; sourceTree = "<group>"; };
+		82CF9A6AE6C64EF17954EC7A40141028 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0246F9784E47557057C03F13FABEF27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		AFE3337DEE1E228B48DB479FA548689D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B80D1C6DE438AB15AF86DA82BB7DA69C /* Pods-YWDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YWDialog_Tests.modulemap"; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BE2BDEEF5F0C6E560D276364595E1A07 /* Pods-YWDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWDialog_Example-dummy.m"; sourceTree = "<group>"; };
-		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE420C3BA957BFF0B46FF35C75720610 /* Pods-YWDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D3009F93F5E6CEDE84010551168597E1 /* Pods-YWDialog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWDialog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D63722A910648D2327DCCD676FF62847 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D747208670539A52D030DEA9217727D0 /* YWDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWDialog.xcconfig; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DC8A5EB8EC69247A9CAED1858A898572 /* Pods-YWDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E7E9A5FC8B7D3FE17AEF09E5B2E48398 /* YWDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YWDialog.modulemap; sourceTree = "<group>"; };
-		E9A9D54BA2B97ED2C4A2ECBFDE86F63E /* Pods-YWDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		EF8599EB1EA039412A3197279A350E1E /* Pods-YWDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F903AB0CFF49B96EEC1C4B52135778F4 /* Pods-YWDialog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWDialog_Tests-dummy.m"; sourceTree = "<group>"; };
-		FA2B9E93C06DA04CEE86748B626E8A48 /* YWDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YWDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FB56B9E2F5DA2FB339014CC8F13A1B99 /* Pods_YWDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YWDialog_Tests.framework; path = "Pods-YWDialog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC3E456556E687AA25A6928D6EA91123 /* Pods-YWDialog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YWDialog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9B4508B94090A5A4D95C100D99B1D22E /* YWDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YWDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A543DE97A7696192363340C8CB1E8D2D /* AlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertAction.h; sourceTree = "<group>"; };
+		A5CB1A24AB5205067E26A9C0FC74ED86 /* UIAlertController+Window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Window.h"; sourceTree = "<group>"; };
+		ABC392A52F9B4682315373768FCB8667 /* Pods-YWDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AE21613F3761AD5CDD0136148E51984E /* YWDialogHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWDialogHeader.h; path = YWDialog/Classes/YWDialogHeader.h; sourceTree = "<group>"; };
+		B532E989F611D830C96C4623A4AA8CC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C79FDAAD22F6D024055DA83EC96946E5 /* AlertBackWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertBackWindow.h; sourceTree = "<group>"; };
+		CFEAF612A5019232DC9BB7A44C28D619 /* AlertDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertDialog.m; sourceTree = "<group>"; };
+		CFEBDF9F219340C86BAF14926A2C981C /* Pods-YWDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D932FE7259F02397F89B1102F4FA2A9C /* Pods-YWDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EA02C4FF2F9A1BFD8ED0A8B248D91451 /* YWDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YWDialog.h; sourceTree = "<group>"; };
+		ED8028A97FCC091176CE3C28B1ADE766 /* Pods-YWDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDE97E62858B39BC3BE88FCBD3628AA0 /* Pods-YWDialog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWDialog_Example-resources.sh"; sourceTree = "<group>"; };
+		F109AFC5934892153993B1DF7A1A2817 /* AlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertAction.m; sourceTree = "<group>"; };
+		F306B248C27C3B3C1679256EF406E525 /* AlertBackWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertBackWindow.m; sourceTree = "<group>"; };
+		F9F392BED7669B8C3089AE0BC541714A /* AlertControllerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertControllerInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CE3C4705196B905895573F60B049B38 /* Frameworks */ = {
+		68BA8B3F481E91B506B8A9D064076859 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5308F60D61418ADC8AEB6BCBCC3A41D5 /* Foundation.framework in Frameworks */,
+				024312B8831BEDB22F3BCEC56EA539A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+		7B1D1E6E2CF296DEF5236FEBEE55D0DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
-				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
-				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
-				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+				68CA71E67253C8EE8B9729205A8A7BA2 /* Foundation.framework in Frameworks */,
+				0CA91A6E3741E87DB2F1AC3FFBEFBFDB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B13387E7063316A5D150F17080489C1A /* Frameworks */ = {
+		E35DE1CC955400A5C874CD35314961B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC736126C5AA745D881237D91E4C5BB7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E845AF1141AA99D0AFA6281E42B6A87F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F2B9C1CD6AACA5AEE3C029BC6B8BE3C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		32CB98CF68A05E14CD4E152F5495EFE1 /* YWDialog */ = {
 			isa = PBXGroup;
 			children = (
-				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1D04BEDCF96A37E45016EF876D2DC700 /* YWDialog */ = {
-			isa = PBXGroup;
-			children = (
-				33393E6821BFAD3B21015B844A9B92DA /* ReplaceMe.m */,
-				5AEF1982E324C8196737EE003031B5D5 /* Pod */,
-				52FF225275F58C31571DA86554626C73 /* Support Files */,
+				AE21613F3761AD5CDD0136148E51984E /* YWDialogHeader.h */,
+				CE317AEB6A3E79A42AD5C6E5A79E60FB /* Pod */,
+				9E2DD7325A7A374E3946471FB7A014DE /* source */,
+				5DB71059A919B0A6C4595804BA908410 /* Support Files */,
 			);
 			name = YWDialog;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		3965CCFFBC8A51B66B38FB814213FDD2 /* Pods-YWDialog_Example */ = {
+		5DB71059A919B0A6C4595804BA908410 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AFE3337DEE1E228B48DB479FA548689D /* Info.plist */,
-				155C6F2E59DDC5E8B629B639D858A4DD /* Pods-YWDialog_Example.modulemap */,
-				CE420C3BA957BFF0B46FF35C75720610 /* Pods-YWDialog_Example-acknowledgements.markdown */,
-				E9A9D54BA2B97ED2C4A2ECBFDE86F63E /* Pods-YWDialog_Example-acknowledgements.plist */,
-				BE2BDEEF5F0C6E560D276364595E1A07 /* Pods-YWDialog_Example-dummy.m */,
-				067DE8C5512AF24F46CA87C911007E9E /* Pods-YWDialog_Example-frameworks.sh */,
-				5ABD24BBB59A18B6B0C2524BC66725AF /* Pods-YWDialog_Example-resources.sh */,
-				67E42292F11B1D38847B4BA8CFC29F4B /* Pods-YWDialog_Example-umbrella.h */,
-				203F39C9F2DAE7D8D0E3060DC8087ADA /* Pods-YWDialog_Example.debug.xcconfig */,
-				DC8A5EB8EC69247A9CAED1858A898572 /* Pods-YWDialog_Example.release.xcconfig */,
-			);
-			name = "Pods-YWDialog_Example";
-			path = "Target Support Files/Pods-YWDialog_Example";
-			sourceTree = "<group>";
-		};
-		52FF225275F58C31571DA86554626C73 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				20769FD8085CCEE0149C31174AFDC50F /* Info.plist */,
-				E7E9A5FC8B7D3FE17AEF09E5B2E48398 /* YWDialog.modulemap */,
-				D747208670539A52D030DEA9217727D0 /* YWDialog.xcconfig */,
-				181B53A079778AC5C09AF9E65C214FDA /* YWDialog-dummy.m */,
-				91F1BDF1DED97E30B0FA5727D7FC60C9 /* YWDialog-prefix.pch */,
-				0AFE2E8F88849D7562D600EA7F092496 /* YWDialog-umbrella.h */,
+				6101393DFECB81441CD23EBD2ADC95A1 /* ResourceBundle-YWDialog-Info.plist */,
+				379B166A7CF8084BAB3DF799376CDE11 /* YWDialog.xcconfig */,
+				57EBFCBA78F78044AB837DFDC579BD00 /* YWDialog-dummy.m */,
+				7EFFAF933836EE83F3530CFC54B2DFF0 /* YWDialog-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YWDialog";
 			sourceTree = "<group>";
 		};
-		5AEF1982E324C8196737EE003031B5D5 /* Pod */ = {
+		7C305A70E07D73465D96A94F751741AB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C655A7188300F157504EA35DE02CC57 /* LICENSE */,
-				A0246F9784E47557057C03F13FABEF27 /* README.md */,
-				FA2B9E93C06DA04CEE86748B626E8A48 /* YWDialog.podspec */,
+				A6E8286A3A0DEBE581EF72E9E98E6EBA /* Pods-YWDialog_Example */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6A34EBC9FC8524CEA87E1DBFDCC3088E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1D04BEDCF96A37E45016EF876D2DC700 /* YWDialog */,
-			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6A34EBC9FC8524CEA87E1DBFDCC3088E /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				CA48068FEED3A27664F7DE26873B01FD /* Products */,
-				C9FFF00DCB58A4BDB1B93219C17506DD /* Targets Support Files */,
+				C524B5927EB6C92DBE3CEC24C43DB337 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BE784F53BFE3F360D864D6C8A5FC3074 /* Products */,
+				7C305A70E07D73465D96A94F751741AB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
+		9E2DD7325A7A374E3946471FB7A014DE /* source */ = {
 			isa = PBXGroup;
 			children = (
-				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
-				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
-				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
-				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
+				A543DE97A7696192363340C8CB1E8D2D /* AlertAction.h */,
+				F109AFC5934892153993B1DF7A1A2817 /* AlertAction.m */,
+				40F2290601CB8D7ECA1BACFC52908C6F /* AlertActionProtocol.h */,
+				C79FDAAD22F6D024055DA83EC96946E5 /* AlertBackWindow.h */,
+				F306B248C27C3B3C1679256EF406E525 /* AlertBackWindow.m */,
+				F9F392BED7669B8C3089AE0BC541714A /* AlertControllerInfo.h */,
+				7D1B85C9FD501456BE953EFD5074D552 /* AlertControllerInfo.m */,
+				02C9FB6D5E589C8E43CF9A7B47FD2634 /* AlertDialog.h */,
+				CFEAF612A5019232DC9BB7A44C28D619 /* AlertDialog.m */,
+				A5CB1A24AB5205067E26A9C0FC74ED86 /* UIAlertController+Window.h */,
+				2C1C2A1152055FA711B083D495B12B70 /* UIAlertController+Window.m */,
+				EA02C4FF2F9A1BFD8ED0A8B248D91451 /* YWDialog.h */,
+				1E799930B66B9465D620C48BA4F87AA0 /* YWDialog.m */,
 			);
-			name = iOS;
+			name = source;
+			path = YWDialog/Classes/source;
 			sourceTree = "<group>";
 		};
-		948637606108ED6D278B0D3A9E197A34 /* Pods-YWDialog_Tests */ = {
+		A6E8286A3A0DEBE581EF72E9E98E6EBA /* Pods-YWDialog_Example */ = {
 			isa = PBXGroup;
 			children = (
-				D63722A910648D2327DCCD676FF62847 /* Info.plist */,
-				B80D1C6DE438AB15AF86DA82BB7DA69C /* Pods-YWDialog_Tests.modulemap */,
-				40833EED53E2465162CEF4AD762F667A /* Pods-YWDialog_Tests-acknowledgements.markdown */,
-				D3009F93F5E6CEDE84010551168597E1 /* Pods-YWDialog_Tests-acknowledgements.plist */,
-				F903AB0CFF49B96EEC1C4B52135778F4 /* Pods-YWDialog_Tests-dummy.m */,
-				86A81781378D22BA190D863FE5533448 /* Pods-YWDialog_Tests-frameworks.sh */,
-				0E368B8BB8A30B9932962CC19E10FEC3 /* Pods-YWDialog_Tests-resources.sh */,
-				FC3E456556E687AA25A6928D6EA91123 /* Pods-YWDialog_Tests-umbrella.h */,
-				EF8599EB1EA039412A3197279A350E1E /* Pods-YWDialog_Tests.debug.xcconfig */,
-				30B4BCC798BDA9BF6AAA55218458E06A /* Pods-YWDialog_Tests.release.xcconfig */,
+				ED8028A97FCC091176CE3C28B1ADE766 /* Pods-YWDialog_Example-acknowledgements.markdown */,
+				CFEBDF9F219340C86BAF14926A2C981C /* Pods-YWDialog_Example-acknowledgements.plist */,
+				6D003BD486D7B12DDA356124240273C2 /* Pods-YWDialog_Example-dummy.m */,
+				663FA9C72F9D30F627ABD67E9879CAD2 /* Pods-YWDialog_Example-frameworks.sh */,
+				EDE97E62858B39BC3BE88FCBD3628AA0 /* Pods-YWDialog_Example-resources.sh */,
+				D932FE7259F02397F89B1102F4FA2A9C /* Pods-YWDialog_Example.debug.xcconfig */,
+				ABC392A52F9B4682315373768FCB8667 /* Pods-YWDialog_Example.release.xcconfig */,
 			);
-			name = "Pods-YWDialog_Tests";
-			path = "Target Support Files/Pods-YWDialog_Tests";
+			name = "Pods-YWDialog_Example";
+			path = "Target Support Files/Pods-YWDialog_Example";
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+		BE784F53BFE3F360D864D6C8A5FC3074 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		C9FFF00DCB58A4BDB1B93219C17506DD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3965CCFFBC8A51B66B38FB814213FDD2 /* Pods-YWDialog_Example */,
-				948637606108ED6D278B0D3A9E197A34 /* Pods-YWDialog_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CA48068FEED3A27664F7DE26873B01FD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0BB4577829EBAB3E8445039C0D45C89D /* FBSnapshotTestCase.framework */,
-				3DA29CCC7D5A50315498CD4BC331C541 /* Pods_YWDialog_Example.framework */,
-				FB56B9E2F5DA2FB339014CC8F13A1B99 /* Pods_YWDialog_Tests.framework */,
-				19D0247121721C16BCDF3D470CE942C4 /* YWDialog.framework */,
+				6FEA9496D73A2AB2E01BD440E421A779 /* libPods-YWDialog_Example.a */,
+				5ABEC17482103D4C9142EF4226541A09 /* libYWDialog.a */,
+				0F02E85EB5ACA149EB38AECB4C6B3204 /* YWDialog.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+		C524B5927EB6C92DBE3CEC24C43DB337 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+				32CB98CF68A05E14CD4E152F5495EFE1 /* YWDialog */,
 			);
-			name = Core;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+		CE317AEB6A3E79A42AD5C6E5A79E60FB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+				82CF9A6AE6C64EF17954EC7A40141028 /* LICENSE */,
+				B532E989F611D830C96C4623A4AA8CC4 /* README.md */,
+				9B4508B94090A5A4D95C100D99B1D22E /* YWDialog.podspec */,
 			);
-			name = Pods;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		235A26294D482B3A5344E522636751A0 /* Headers */ = {
+		0A3FBB4B836827975EC7B2E8FD1D04DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81355C6AB5EC231B71147AC62929FBE /* Pods-YWDialog_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D771773FDBFC2C68E1E55FAE0E37233 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76B11DEA7835D68AC1A97EF97DDFC8CC /* YWDialog-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		927BDA3B8729AB2C3AB99B194A3DF525 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2EC14082C99216877A10DC35657F3F59 /* Pods-YWDialog_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
-				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
-				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
-				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
-				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
-				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
-				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+				9F3EA52336543337F9F50E9BA86DC1B4 /* AlertAction.h in Headers */,
+				E38D457E568D23F5577CBD9D1B98B434 /* AlertActionProtocol.h in Headers */,
+				FF985615C155A3C4C2B61BA8FEC1EFDC /* AlertBackWindow.h in Headers */,
+				2790895CEBDA7679174181F8815CB533 /* AlertControllerInfo.h in Headers */,
+				59FDB962ACE4963930A33EFCBF80C8E4 /* AlertDialog.h in Headers */,
+				0AC050698FBEEFEEDFD429EB3EB0BF27 /* UIAlertController+Window.h in Headers */,
+				38A548C5B18DABEEEC4CC7F00D11F887 /* YWDialog.h in Headers */,
+				04EBCA2AE62BA19DF83C0C5C2959149F /* YWDialogHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		26B466361A1D02FEFBDFDC4B32871C9A /* Pods-YWDialog_Tests */ = {
+		5C554D1540DF08A2CE22605AF75B5AC3 /* YWDialog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDCF6576201ED8884C9B8B7CE557177A /* Build configuration list for PBXNativeTarget "Pods-YWDialog_Tests" */;
+			buildConfigurationList = 4A40F523B7CA55AC8EB9C69B8012F262 /* Build configuration list for PBXNativeTarget "YWDialog" */;
 			buildPhases = (
-				B0F8634D04D16CE35B7E1A5FE5B1881B /* Sources */,
-				1CE3C4705196B905895573F60B049B38 /* Frameworks */,
-				235A26294D482B3A5344E522636751A0 /* Headers */,
+				F8045A71DAB15182573C451246F66327 /* Sources */,
+				7B1D1E6E2CF296DEF5236FEBEE55D0DC /* Frameworks */,
+				0A3FBB4B836827975EC7B2E8FD1D04DD /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				369F141D3E0569F81F5973FA73EC2A68 /* PBXTargetDependency */,
-				F9AC04EA767F4FB92C13E6583ED50DBB /* PBXTargetDependency */,
-			);
-			name = "Pods-YWDialog_Tests";
-			productName = "Pods-YWDialog_Tests";
-			productReference = FB56B9E2F5DA2FB339014CC8F13A1B99 /* Pods_YWDialog_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
-				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
-				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 0BB4577829EBAB3E8445039C0D45C89D /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7FC198C98886CA6A37922F8BEF910F0C /* Pods-YWDialog_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFEA7068826EAA02C5F02CADE482D550 /* Build configuration list for PBXNativeTarget "Pods-YWDialog_Example" */;
-			buildPhases = (
-				22F2DF32FF1CD61CC1D4AEE521E0670C /* Sources */,
-				B13387E7063316A5D150F17080489C1A /* Frameworks */,
-				927BDA3B8729AB2C3AB99B194A3DF525 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71347229401E394F8E6E21CB302626F1 /* PBXTargetDependency */,
-			);
-			name = "Pods-YWDialog_Example";
-			productName = "Pods-YWDialog_Example";
-			productReference = 3DA29CCC7D5A50315498CD4BC331C541 /* Pods_YWDialog_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9B5C5A70E9E2EFA8938EF7605CBC0F66 /* YWDialog */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23C46335DBA01E83B1168FF91D169D4F /* Build configuration list for PBXNativeTarget "YWDialog" */;
-			buildPhases = (
-				F958E7BD58C72FB3B1AC9063D6C4F10C /* Sources */,
-				E845AF1141AA99D0AFA6281E42B6A87F /* Frameworks */,
-				3D771773FDBFC2C68E1E55FAE0E37233 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				DBDDA4BF47BD97E9609C3D46ABD34914 /* PBXTargetDependency */,
 			);
 			name = YWDialog;
 			productName = YWDialog;
-			productReference = 19D0247121721C16BCDF3D470CE942C4 /* YWDialog.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 5ABEC17482103D4C9142EF4226541A09 /* libYWDialog.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3C16F78EEF72E287E7890162D326D9A /* Pods-YWDialog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96F480C887A9087727AA8C98E9D96EF /* Build configuration list for PBXNativeTarget "Pods-YWDialog_Example" */;
+			buildPhases = (
+				D5CCD734A7D9C54E510F5BEF09E308CB /* Sources */,
+				68BA8B3F481E91B506B8A9D064076859 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9102888CF43BEED6639E65ACDBCBC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-YWDialog_Example";
+			productName = "Pods-YWDialog_Example";
+			productReference = 6FEA9496D73A2AB2E01BD440E421A779 /* libPods-YWDialog_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3F5C5CB2011B2483D7068F9EF2DBDFA /* YWDialog-YWDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631A631EB010385D20C491AF6E99D20D /* Build configuration list for PBXNativeTarget "YWDialog-YWDialog" */;
+			buildPhases = (
+				2D166A57132B3303A8AD7E6CF7890716 /* Sources */,
+				E35DE1CC955400A5C874CD35314961B0 /* Frameworks */,
+				180953934B4A3EA29C39B75A607FFD23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YWDialog-YWDialog";
+			productName = "YWDialog-YWDialog";
+			productReference = 0F02E85EB5ACA149EB38AECB4C6B3204 /* YWDialog.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -491,150 +324,76 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CA48068FEED3A27664F7DE26873B01FD /* Products */;
+			productRefGroup = BE784F53BFE3F360D864D6C8A5FC3074 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				7FC198C98886CA6A37922F8BEF910F0C /* Pods-YWDialog_Example */,
-				26B466361A1D02FEFBDFDC4B32871C9A /* Pods-YWDialog_Tests */,
-				9B5C5A70E9E2EFA8938EF7605CBC0F66 /* YWDialog */,
+				B3C16F78EEF72E287E7890162D326D9A /* Pods-YWDialog_Example */,
+				5C554D1540DF08A2CE22605AF75B5AC3 /* YWDialog */,
+				B3F5C5CB2011B2483D7068F9EF2DBDFA /* YWDialog-YWDialog */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		180953934B4A3EA29C39B75A607FFD23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		22F2DF32FF1CD61CC1D4AEE521E0670C /* Sources */ = {
+		2D166A57132B3303A8AD7E6CF7890716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				132D546B6833D0B956A79E2E3D58E522 /* Pods-YWDialog_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0F8634D04D16CE35B7E1A5FE5B1881B /* Sources */ = {
+		D5CCD734A7D9C54E510F5BEF09E308CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DDDFF9834FB5F0A5D26328F97FA2D2 /* Pods-YWDialog_Tests-dummy.m in Sources */,
+				E7B67938FDD3C7F209306315336AB7FD /* Pods-YWDialog_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+		F8045A71DAB15182573C451246F66327 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
-				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
-				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
-				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
-				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
-				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
-				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
-				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F958E7BD58C72FB3B1AC9063D6C4F10C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F51BA2578392C49DB482071A1B100BF /* ReplaceMe.m in Sources */,
-				B80583CE5807D1B4F7E8148AC32A4E41 /* YWDialog-dummy.m in Sources */,
+				F9F84C6EDC5ED904CC324966A7BE6F04 /* AlertAction.m in Sources */,
+				32B12519DFFE4F6AEE83666F61D86D29 /* AlertBackWindow.m in Sources */,
+				036BB3626AB25EA055B7A6D93820F6E8 /* AlertControllerInfo.m in Sources */,
+				13E3A104344034F6D2570D6119C929A6 /* AlertDialog.m in Sources */,
+				27CFCF967BF75C155B7DD51DFD4CB47C /* UIAlertController+Window.m in Sources */,
+				605DFF0BC610025F4A52ED2E182823CC /* YWDialog-dummy.m in Sources */,
+				6E20B5BC2DB771416BBBC80AFEA8CE84 /* YWDialog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		369F141D3E0569F81F5973FA73EC2A68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
-			targetProxy = FF29A57E67572F24252A3B25B7C7484E /* PBXContainerItemProxy */;
-		};
-		71347229401E394F8E6E21CB302626F1 /* PBXTargetDependency */ = {
+		0A9102888CF43BEED6639E65ACDBCBC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YWDialog;
-			target = 9B5C5A70E9E2EFA8938EF7605CBC0F66 /* YWDialog */;
-			targetProxy = 942A3A6E96D5B4C59E03612D40836403 /* PBXContainerItemProxy */;
+			target = 5C554D1540DF08A2CE22605AF75B5AC3 /* YWDialog */;
+			targetProxy = 90DF73E15251B6D9AA93976D044312FD /* PBXContainerItemProxy */;
 		};
-		F9AC04EA767F4FB92C13E6583ED50DBB /* PBXTargetDependency */ = {
+		DBDDA4BF47BD97E9609C3D46ABD34914 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-YWDialog_Example";
-			target = 7FC198C98886CA6A37922F8BEF910F0C /* Pods-YWDialog_Example */;
-			targetProxy = 6D3AF32A422EB2B3E90886D8B972A90A /* PBXContainerItemProxy */;
+			name = "YWDialog-YWDialog";
+			target = B3F5C5CB2011B2483D7068F9EF2DBDFA /* YWDialog-YWDialog */;
+			targetProxy = B924984644D5469814F545F306F3BF4E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EF26E3C83C775C218E964131C8CB1A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D747208670539A52D030DEA9217727D0 /* YWDialog.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YWDialog/YWDialog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YWDialog/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YWDialog/YWDialog.modulemap";
-				PRODUCT_MODULE_NAME = YWDialog;
-				PRODUCT_NAME = YWDialog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		384D8B57607009E4CA513CA9E3EBA02B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF8599EB1EA039412A3197279A350E1E /* Pods-YWDialog_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YWDialog_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YWDialog_Tests/Pods-YWDialog_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -687,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -697,104 +456,129 @@
 			};
 			name = Debug;
 		};
-		A38749C15819B02B742737E489EE0EEB /* Debug */ = {
+		4301EC68DE8733D5AB44C185A1204E4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B1D6A3A1AEFF3A4BE8DAAD121CCB04BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC8A5EB8EC69247A9CAED1858A898572 /* Pods-YWDialog_Example.release.xcconfig */;
+			baseConfigurationReference = ABC392A52F9B4682315373768FCB8667 /* Pods-YWDialog_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YWDialog_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YWDialog_Example/Pods-YWDialog_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		87E41F787907CD48F1A67B6EF498C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379B166A7CF8084BAB3DF799376CDE11 /* YWDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YWDialog";
+				INFOPLIST_FILE = "Target Support Files/YWDialog/ResourceBundle-YWDialog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YWDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		89D8BF335997B1030A892A8431282578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379B166A7CF8084BAB3DF799376CDE11 /* YWDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YWDialog";
+				INFOPLIST_FILE = "Target Support Files/YWDialog/ResourceBundle-YWDialog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YWDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		96692B3307FB70B83377E4EDFC59CB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D932FE7259F02397F89B1102F4FA2A9C /* Pods-YWDialog_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1FACC44600D28D50436C6B519E887BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379B166A7CF8084BAB3DF799376CDE11 /* YWDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YWDialog/YWDialog-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YWDialog;
+				PRODUCT_NAME = YWDialog;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D339B8C29AD1296606A0632A95264178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379B166A7CF8084BAB3DF799376CDE11 /* YWDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YWDialog/YWDialog-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YWDialog;
+				PRODUCT_NAME = YWDialog;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -844,7 +628,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -852,149 +636,41 @@
 			};
 			name = Release;
 		};
-		B68AB9825FF3BB9523DDB2D05F3B1068 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D747208670539A52D030DEA9217727D0 /* YWDialog.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YWDialog/YWDialog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YWDialog/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YWDialog/YWDialog.modulemap";
-				PRODUCT_MODULE_NAME = YWDialog;
-				PRODUCT_NAME = YWDialog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F066403D67CC7446070159110DFB2B60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 203F39C9F2DAE7D8D0E3060DC8087ADA /* Pods-YWDialog_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YWDialog_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YWDialog_Example/Pods-YWDialog_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F8634CD20964A5BF93F1E404AF660A47 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30B4BCC798BDA9BF6AAA55218458E06A /* Pods-YWDialog_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YWDialog_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YWDialog_Tests/Pods-YWDialog_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23C46335DBA01E83B1168FF91D169D4F /* Build configuration list for PBXNativeTarget "YWDialog" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1EF26E3C83C775C218E964131C8CB1A4 /* Debug */,
-				B68AB9825FF3BB9523DDB2D05F3B1068 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFEA7068826EAA02C5F02CADE482D550 /* Build configuration list for PBXNativeTarget "Pods-YWDialog_Example" */ = {
+		4A40F523B7CA55AC8EB9C69B8012F262 /* Build configuration list for PBXNativeTarget "YWDialog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F066403D67CC7446070159110DFB2B60 /* Debug */,
-				B1D6A3A1AEFF3A4BE8DAAD121CCB04BA /* Release */,
+				D339B8C29AD1296606A0632A95264178 /* Debug */,
+				A1FACC44600D28D50436C6B519E887BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDCF6576201ED8884C9B8B7CE557177A /* Build configuration list for PBXNativeTarget "Pods-YWDialog_Tests" */ = {
+		631A631EB010385D20C491AF6E99D20D /* Build configuration list for PBXNativeTarget "YWDialog-YWDialog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				384D8B57607009E4CA513CA9E3EBA02B /* Debug */,
-				F8634CD20964A5BF93F1E404AF660A47 /* Release */,
+				87E41F787907CD48F1A67B6EF498C1BA /* Debug */,
+				89D8BF335997B1030A892A8431282578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		E96F480C887A9087727AA8C98E9D96EF /* Build configuration list for PBXNativeTarget "Pods-YWDialog_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A38749C15819B02B742737E489EE0EEB /* Debug */,
-				AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */,
+				96692B3307FB70B83377E4EDFC59CB50 /* Debug */,
+				4301EC68DE8733D5AB44C185A1204E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

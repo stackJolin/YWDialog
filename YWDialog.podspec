@@ -18,13 +18,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YWDialog/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YWDialog' => ['YWDialog/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'YWDialog/Classes/**/*.{h,m,mm,hpp,cpp,c}'
+  s.public_header_files = 'YWDialog/Classes/**/*.h'
+  s.resource_bundles = {
+      'YWDialog' => ['YWDialog/Assets/*.{png,jpg}'],
+  }
+  s.prefix_header_file = 'YWDialog/Classes/YWDialogHeader.h'
+  s.frameworks = 'UIKit'
 end

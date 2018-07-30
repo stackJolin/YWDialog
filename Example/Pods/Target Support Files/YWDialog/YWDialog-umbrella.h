@@ -10,6 +10,14 @@
 #endif
 #endif
 
+#import "AlertAction.h"
+#import "AlertActionProtocol.h"
+#import "AlertBackWindow.h"
+#import "AlertControllerInfo.h"
+#import "AlertDialog.h"
+#import "UIAlertController+Window.h"
+#import "YWDialog.h"
+#import "YWDialog.h"
 
 FOUNDATION_EXPORT double YWDialogVersionNumber;
 FOUNDATION_EXPORT const unsigned char YWDialogVersionString[];

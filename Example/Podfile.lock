@@ -1,27 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - YWDialog (0.1.0)
+  - YWDialog (0.1.1)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - YWDialog (from `../`)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   YWDialog:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YWDialog: bf1e2c1e49912250303d46350a157772bea4c6a1
+  YWDialog: 1d5691ee2ded1274a9a7a6fef768ab23bd0e0407
 
-PODFILE CHECKSUM: 8046246c9aaa695548ce99548d5d96732ee31504
+PODFILE CHECKSUM: 2e1447c67d2cdca94061e11a4a325a4a17465847
 
 COCOAPODS: 1.5.0

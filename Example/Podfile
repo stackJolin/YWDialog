@@ -1,11 +1,7 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+
+platform :ios, '8.0'
 
 target 'YWDialog_Example' do
   pod 'YWDialog', :path => '../'
-
-  target 'YWDialog_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
 end

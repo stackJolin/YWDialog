@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0693D55DFB7B1A003AAE59C7 /* Pods_YWDialog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2E1979C96704A19F1B37C7 /* Pods_YWDialog_Tests.framework */; };
-		45EA634FA8CAE5DB85A457E3 /* Pods_YWDialog_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66144E1B34C3735272F8026 /* Pods_YWDialog_Example.framework */; };
+		194C2E1916BF1AC6B95FA179 /* libPods-YWDialog_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F18B9FAF0BA67A79CF622BA /* libPods-YWDialog_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,6 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6D9C9FF8210F384D0069CB2B /* YWDialog+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9C9FF6210F384D0069CB2B /* YWDialog+Extension.m */; };
+		6D9C9FF9210F384D0069CB2B /* AlertDialog+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9C9FF7210F384D0069CB2B /* AlertDialog+Extension.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		4B2E1979C96704A19F1B37C7 /* Pods_YWDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F18B9FAF0BA67A79CF622BA /* libPods-YWDialog_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWDialog_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		506AD661E3E841CE059FF8AB /* YWDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YWDialog.podspec; path = ../YWDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C727E4FD2B9CD4E5909980D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YWDialog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWDialog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,13 +61,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6D9C9FF4210F384C0069CB2B /* YWDialog+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YWDialog+Extension.h"; sourceTree = "<group>"; };
+		6D9C9FF5210F384C0069CB2B /* AlertDialog+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlertDialog+Extension.h"; sourceTree = "<group>"; };
+		6D9C9FF6210F384D0069CB2B /* YWDialog+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YWDialog+Extension.m"; sourceTree = "<group>"; };
+		6D9C9FF7210F384D0069CB2B /* AlertDialog+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AlertDialog+Extension.m"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77A4D2F75D31E4360CB6262F /* Pods-YWDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWDialog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWDialog_Tests/Pods-YWDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E866C3268EAD7418D7EB307 /* Pods-YWDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWDialog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWDialog_Example/Pods-YWDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		81A2987BA2CC08D8FA6D50FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A43093E5524DE93BF8A7E462 /* Pods-YWDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWDialog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWDialog_Tests/Pods-YWDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C66144E1B34C3735272F8026 /* Pods_YWDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F752EEFD22A5D2D87D22AA90 /* Pods-YWDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWDialog_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWDialog_Example/Pods-YWDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				45EA634FA8CAE5DB85A457E3 /* Pods_YWDialog_Example.framework in Frameworks */,
+				194C2E1916BF1AC6B95FA179 /* libPods-YWDialog_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				0693D55DFB7B1A003AAE59C7 /* Pods_YWDialog_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +125,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C66144E1B34C3735272F8026 /* Pods_YWDialog_Example.framework */,
 				4B2E1979C96704A19F1B37C7 /* Pods_YWDialog_Tests.framework */,
+				4F18B9FAF0BA67A79CF622BA /* libPods-YWDialog_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +134,10 @@
 		6003F593195388D20070C39A /* Example for YWDialog */ = {
 			isa = PBXGroup;
 			children = (
+				6D9C9FF5210F384C0069CB2B /* AlertDialog+Extension.h */,
+				6D9C9FF7210F384D0069CB2B /* AlertDialog+Extension.m */,
+				6D9C9FF4210F384C0069CB2B /* YWDialog+Extension.h */,
+				6D9C9FF6210F384D0069CB2B /* YWDialog+Extension.m */,
 				6003F59C195388D20070C39A /* YWAppDelegate.h */,
 				6003F59D195388D20070C39A /* YWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -190,8 +196,6 @@
 			children = (
 				7E866C3268EAD7418D7EB307 /* Pods-YWDialog_Example.debug.xcconfig */,
 				F752EEFD22A5D2D87D22AA90 /* Pods-YWDialog_Example.release.xcconfig */,
-				A43093E5524DE93BF8A7E462 /* Pods-YWDialog_Tests.debug.xcconfig */,
-				77A4D2F75D31E4360CB6262F /* Pods-YWDialog_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -207,7 +211,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				04D6C7CB3245367ED933BFCF /* [CP] Embed Pods Frameworks */,
+				6CBE70646FA116D69BA6313F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,11 +226,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YWDialog_Tests" */;
 			buildPhases = (
-				3F9AE7E7B8C0767A4FFDD67A /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				19E033DC4CA3ECE6501A5F28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "601584870@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = CV7MH8K7UH;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -295,58 +300,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04D6C7CB3245367ED933BFCF /* [CP] Embed Pods Frameworks */ = {
+		6CBE70646FA116D69BA6313F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YWDialog_Example/Pods-YWDialog_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YWDialog/YWDialog.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-YWDialog_Example/Pods-YWDialog_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/YWDialog/YWDialog.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YWDialog.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YWDialog.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWDialog_Example/Pods-YWDialog_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		19E033DC4CA3ECE6501A5F28 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YWDialog_Tests/Pods-YWDialog_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWDialog_Tests/Pods-YWDialog_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F9AE7E7B8C0767A4FFDD67A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YWDialog_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWDialog_Example/Pods-YWDialog_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D9A2A92E010B772ADB6F9278 /* [CP] Check Pods Manifest.lock */ = {
@@ -377,6 +346,8 @@
 				6003F59E195388D20070C39A /* YWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				6D9C9FF9210F384D0069CB2B /* AlertDialog+Extension.m in Sources */,
+				6D9C9FF8210F384D0069CB2B /* YWDialog+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,11 +475,12 @@
 			baseConfigurationReference = 7E866C3268EAD7418D7EB307 /* Pods-YWDialog_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CV7MH8K7UH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YWDialog/YWDialog-Prefix.pch";
 				INFOPLIST_FILE = "YWDialog/YWDialog-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = www.zhuhoulin.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -519,11 +491,12 @@
 			baseConfigurationReference = F752EEFD22A5D2D87D22AA90 /* Pods-YWDialog_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CV7MH8K7UH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YWDialog/YWDialog-Prefix.pch";
 				INFOPLIST_FILE = "YWDialog/YWDialog-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = www.zhuhoulin.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -531,7 +504,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A43093E5524DE93BF8A7E462 /* Pods-YWDialog_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -555,7 +527,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77A4D2F75D31E4360CB6262F /* Pods-YWDialog_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
