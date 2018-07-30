@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YWDialog'
-  s.version          = '0.1.6'
+  s.version          = '0.1.1'
   s.summary          = 'YuWaniOS - Alert'
 
   s.homepage         = 'https://github.com/stackJolin/YWDialog'
@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YWDialog/Classes/**/*.{h,m,mm,hpp,cpp,c}'
+  s.public_header_files = 'YWDialog/Classes/**/*.h'
   
+  s.prefix_header_file = 'YWDialog/Classes/YWDialog.h'
   s.frameworks = 'UIKit','Foundation'
 end

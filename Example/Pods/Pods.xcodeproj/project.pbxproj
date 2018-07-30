@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		021119BA1E3704C40134B413FE5E7667 /* Dialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB8A1B59472300E3594D546526F1003 /* Dialog.m */; };
 		024312B8831BEDB22F3BCEC56EA539A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		0CA91A6E3741E87DB2F1AC3FFBEFBFDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		0D58ADD44A131919F1A53501CB26BDDE /* AlertBackWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CA1B2C00CE74D2016244648EAC4EE3 /* AlertBackWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		23C393940F47B2ABB1E96953EC35DD9A /* UIAlertController+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C029F147F9C75F5CD523C819F1E369 /* UIAlertController+Window.m */; };
-		47F6FC8E290D81AB655A9DDA87382DFD /* AlertDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = D793DC705894A66A71CC13AF65B24CC5 /* AlertDialog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		57E8FAFC00F443481E208F06B1683FE3 /* AlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B630007F4ED6A94C030365632606EE /* AlertAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20860BDE6F7C9F7FB4F563EC0ACA9824 /* YWDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05280869208A828E3802391AB5C7AB27 /* YWDialog-dummy.m */; };
+		484A3880F93B357BF3D13FEB29168718 /* AlertActionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 09444EEB3ECB8A44608DA6DB6E057FA4 /* AlertActionProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		649B2FBA8AD214B552329C147BAD5EAB /* Dialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AF5562FA78AB8E1A4160B4EF2A783F /* Dialog.m */; };
 		68CA71E67253C8EE8B9729205A8A7BA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		73E2075315017139A2797F4540D0D018 /* AlertControllerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2349655EE9E434054B93B0882924E9 /* AlertControllerInfo.m */; };
-		7854C4438BD6908E2FD79C20CA4FB63F /* AlertControllerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D9B4F30FA0FF79AE588E0FAC42289B /* AlertControllerInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8B06DCE5F5237EE15492435B0111D086 /* AlertDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D032D6E74BADA1B76B3ECC106323C5A /* AlertDialog.m */; };
-		9007573EA1D74E96363A4FA03AE901D0 /* AlertBackWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C5E034CE6C72D890460F8936D185E2 /* AlertBackWindow.m */; };
-		A2940188BFAB46FE6FC1C1A131BABDD9 /* Dialog.h in Headers */ = {isa = PBXBuildFile; fileRef = BC420C0FA21C8A7D28E322263D1130BE /* Dialog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A5F827E0CD1C27516EEE41ABB95BE5FF /* AlertActionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B7789278CF5261BCB73920C95DE11BA4 /* AlertActionProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA58B4956FE2240A1085EB060304CECE /* YWDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F74A10F19EC589C41E748D920083CC /* YWDialog-dummy.m */; };
-		CEBFB81FECCF8484FADDAF4C999D43A4 /* UIAlertController+Window.h in Headers */ = {isa = PBXBuildFile; fileRef = 386D8F5DFE7237610467BBF2306CC65E /* UIAlertController+Window.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7361CFEA44AC7F434654C4D40EE7FFFD /* AlertControllerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 142424642578A7F32D411DE9808589D6 /* AlertControllerInfo.m */; };
+		83A6D8929E93B8391AF54E57A5320618 /* UIAlertController+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DB05F43FDD131A124DDEB07D353A4 /* UIAlertController+Window.m */; };
+		854AE49D3FF7327A9E3961BC56C00B93 /* AlertBackWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA3F1521CFF7C808890CDD416B013D7 /* AlertBackWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		864B4CCA3EF9C0269FB1E8625173DE88 /* AlertDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA11F016D6EF5B9814C7E9E0AF18BAA /* AlertDialog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B5C3FFA7FE1EC2785FE7760A6C08298 /* Dialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A832B00214C42A960BDD3FF283F918 /* Dialog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DABF2D43CB3E7BA00D3762C717C69D1 /* AlertBackWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 37000772FB6F9FDF26F3D18722E546AE /* AlertBackWindow.m */; };
+		A8BB80484460B0EC2AF05AEC0C4F077F /* YWDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8223B3AFCDF2B861560CE03A01EB9B93 /* YWDialog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8C1EDB7E969196872D80B22A551F43D /* AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E21ECBD9D2BB8D938C9A9B095EB0AB8 /* AlertAction.m */; };
+		C0416CFD39C0019122C51FB1F58CF4B5 /* UIAlertController+Window.h in Headers */ = {isa = PBXBuildFile; fileRef = 99306276C03573EF72F690CB1297477D /* UIAlertController+Window.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E7B67938FDD3C7F209306315336AB7FD /* Pods-YWDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D003BD486D7B12DDA356124240273C2 /* Pods-YWDialog_Example-dummy.m */; };
-		F823A15692C4389B14AFE409FE576982 /* AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C489871DAE78E5184776490D005BA /* AlertAction.m */; };
+		F0A61716AEC2898F228518E9539776A4 /* AlertDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4892AD784BE1181B69498AA8A8B3A709 /* AlertDialog.m */; };
+		FA9A1939829B6FA7EE56F108F03FD8B0 /* AlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA8CFE3F6F1EC3935305C6B5691F185 /* AlertAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCF8CACAECE4F1A2055BDB990F5328EF /* AlertControllerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2654981D3AC0004EA8FCF79898BA4CB0 /* AlertControllerInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +39,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05043DC879D2DDEEDA6C33B9A9C709A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		100EA19703767B5E3344EAFDC20AB25D /* libYWDialog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYWDialog.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B10AF1507B785C96C16B5883858003C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1D032D6E74BADA1B76B3ECC106323C5A /* AlertDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AlertDialog.m; path = YWDialog/Classes/source/AlertDialog.m; sourceTree = "<group>"; };
-		208210AF474ABF4C5E104B1BB8C64662 /* YWDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWDialog-prefix.pch"; sourceTree = "<group>"; };
-		2AD0DAAB6D60291BD22B5A69248C5F79 /* YWDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWDialog.xcconfig; sourceTree = "<group>"; };
-		386D8F5DFE7237610467BBF2306CC65E /* UIAlertController+Window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+Window.h"; path = "YWDialog/Classes/source/UIAlertController+Window.h"; sourceTree = "<group>"; };
-		62C2740EC34DB15AEA73A9C9D224CC3D /* libPods-YWDialog_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWDialog_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63B630007F4ED6A94C030365632606EE /* AlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlertAction.h; path = YWDialog/Classes/source/AlertAction.h; sourceTree = "<group>"; };
+		05280869208A828E3802391AB5C7AB27 /* YWDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWDialog-dummy.m"; sourceTree = "<group>"; };
+		09444EEB3ECB8A44608DA6DB6E057FA4 /* AlertActionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertActionProtocol.h; sourceTree = "<group>"; };
+		0FA3F1521CFF7C808890CDD416B013D7 /* AlertBackWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertBackWindow.h; sourceTree = "<group>"; };
+		100EA19703767B5E3344EAFDC20AB25D /* libYWDialog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYWDialog.a; path = libYWDialog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		142424642578A7F32D411DE9808589D6 /* AlertControllerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertControllerInfo.m; sourceTree = "<group>"; };
+		25A832B00214C42A960BDD3FF283F918 /* Dialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Dialog.h; sourceTree = "<group>"; };
+		2654981D3AC0004EA8FCF79898BA4CB0 /* AlertControllerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertControllerInfo.h; sourceTree = "<group>"; };
+		2FBBDCB5A7F670CF1EDBD2764EA711D1 /* YWDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWDialog-prefix.pch"; sourceTree = "<group>"; };
+		37000772FB6F9FDF26F3D18722E546AE /* AlertBackWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertBackWindow.m; sourceTree = "<group>"; };
+		3A714F94E149F127CA84D4C10382F652 /* YWDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YWDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3E21ECBD9D2BB8D938C9A9B095EB0AB8 /* AlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertAction.m; sourceTree = "<group>"; };
+		4892AD784BE1181B69498AA8A8B3A709 /* AlertDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertDialog.m; sourceTree = "<group>"; };
+		4EA42AD136ED666CEE1145FC254222C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		62C2740EC34DB15AEA73A9C9D224CC3D /* libPods-YWDialog_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YWDialog_Example.a"; path = "libPods-YWDialog_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AF5562FA78AB8E1A4160B4EF2A783F /* Dialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Dialog.m; sourceTree = "<group>"; };
 		663FA9C72F9D30F627ABD67E9879CAD2 /* Pods-YWDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6D003BD486D7B12DDA356124240273C2 /* Pods-YWDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWDialog_Example-dummy.m"; sourceTree = "<group>"; };
-		760C489871DAE78E5184776490D005BA /* AlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AlertAction.m; path = YWDialog/Classes/source/AlertAction.m; sourceTree = "<group>"; };
-		92D9B4F30FA0FF79AE588E0FAC42289B /* AlertControllerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlertControllerInfo.h; path = YWDialog/Classes/source/AlertControllerInfo.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		980490D690F3E72807E00647E7579500 /* YWDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YWDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1F74A10F19EC589C41E748D920083CC /* YWDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWDialog-dummy.m"; sourceTree = "<group>"; };
-		A4CA1B2C00CE74D2016244648EAC4EE3 /* AlertBackWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlertBackWindow.h; path = YWDialog/Classes/source/AlertBackWindow.h; sourceTree = "<group>"; };
+		8223B3AFCDF2B861560CE03A01EB9B93 /* YWDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWDialog.h; path = YWDialog/Classes/YWDialog.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99306276C03573EF72F690CB1297477D /* UIAlertController+Window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Window.h"; sourceTree = "<group>"; };
+		9CA8CFE3F6F1EC3935305C6B5691F185 /* AlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertAction.h; sourceTree = "<group>"; };
 		ABC392A52F9B4682315373768FCB8667 /* Pods-YWDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B5C029F147F9C75F5CD523C819F1E369 /* UIAlertController+Window.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+Window.m"; path = "YWDialog/Classes/source/UIAlertController+Window.m"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B7789278CF5261BCB73920C95DE11BA4 /* AlertActionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlertActionProtocol.h; path = YWDialog/Classes/source/AlertActionProtocol.h; sourceTree = "<group>"; };
-		BC420C0FA21C8A7D28E322263D1130BE /* Dialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Dialog.h; path = YWDialog/Classes/source/Dialog.h; sourceTree = "<group>"; };
-		BE2349655EE9E434054B93B0882924E9 /* AlertControllerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AlertControllerInfo.m; path = YWDialog/Classes/source/AlertControllerInfo.m; sourceTree = "<group>"; };
 		CFEBDF9F219340C86BAF14926A2C981C /* Pods-YWDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1C5E034CE6C72D890460F8936D185E2 /* AlertBackWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AlertBackWindow.m; path = YWDialog/Classes/source/AlertBackWindow.m; sourceTree = "<group>"; };
-		D793DC705894A66A71CC13AF65B24CC5 /* AlertDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlertDialog.h; path = YWDialog/Classes/source/AlertDialog.h; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D932FE7259F02397F89B1102F4FA2A9C /* Pods-YWDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D93DB05F43FDD131A124DDEB07D353A4 /* UIAlertController+Window.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Window.m"; sourceTree = "<group>"; };
+		DDA11F016D6EF5B9814C7E9E0AF18BAA /* AlertDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertDialog.h; sourceTree = "<group>"; };
 		ED8028A97FCC091176CE3C28B1ADE766 /* Pods-YWDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EDE97E62858B39BC3BE88FCBD3628AA0 /* Pods-YWDialog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWDialog_Example-resources.sh"; sourceTree = "<group>"; };
-		FCB8A1B59472300E3594D546526F1003 /* Dialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Dialog.m; path = YWDialog/Classes/source/Dialog.m; sourceTree = "<group>"; };
+		F17EC985A6EA0FD8FC8B3EB12ACD5BD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F2F3DE0D467E9F816D77CBA4B4FF5432 /* YWDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWDialog.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,17 +94,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E1CF27E333CF8E4138D0BC528092C40 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2AD0DAAB6D60291BD22B5A69248C5F79 /* YWDialog.xcconfig */,
-				A1F74A10F19EC589C41E748D920083CC /* YWDialog-dummy.m */,
-				208210AF474ABF4C5E104B1BB8C64662 /* YWDialog-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YWDialog";
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,14 +111,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6B04C9C5AE37E76DB683DE3E50BDD8F6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8F00A7EB6327DD575CB4369F9BA60DAA /* YWDialog */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7C305A70E07D73465D96A94F751741AB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,34 +123,21 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6B04C9C5AE37E76DB683DE3E50BDD8F6 /* Development Pods */,
+				C524B5927EB6C92DBE3CEC24C43DB337 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				ED516E0DBAF9EB4D4D90C0157D07A906 /* Products */,
 				7C305A70E07D73465D96A94F751741AB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8F00A7EB6327DD575CB4369F9BA60DAA /* YWDialog */ = {
+		9CD40BB1A359F6457FEE73840D4849B1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				63B630007F4ED6A94C030365632606EE /* AlertAction.h */,
-				760C489871DAE78E5184776490D005BA /* AlertAction.m */,
-				B7789278CF5261BCB73920C95DE11BA4 /* AlertActionProtocol.h */,
-				A4CA1B2C00CE74D2016244648EAC4EE3 /* AlertBackWindow.h */,
-				D1C5E034CE6C72D890460F8936D185E2 /* AlertBackWindow.m */,
-				92D9B4F30FA0FF79AE588E0FAC42289B /* AlertControllerInfo.h */,
-				BE2349655EE9E434054B93B0882924E9 /* AlertControllerInfo.m */,
-				D793DC705894A66A71CC13AF65B24CC5 /* AlertDialog.h */,
-				1D032D6E74BADA1B76B3ECC106323C5A /* AlertDialog.m */,
-				BC420C0FA21C8A7D28E322263D1130BE /* Dialog.h */,
-				FCB8A1B59472300E3594D546526F1003 /* Dialog.m */,
-				386D8F5DFE7237610467BBF2306CC65E /* UIAlertController+Window.h */,
-				B5C029F147F9C75F5CD523C819F1E369 /* UIAlertController+Window.m */,
-				CA220CABF0B4C090D4D215CA7D875523 /* Pod */,
-				3E1CF27E333CF8E4138D0BC528092C40 /* Support Files */,
+				4EA42AD136ED666CEE1145FC254222C2 /* LICENSE */,
+				F17EC985A6EA0FD8FC8B3EB12ACD5BD8 /* README.md */,
+				3A714F94E149F127CA84D4C10382F652 /* YWDialog.podspec */,
 			);
-			name = YWDialog;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A6E8286A3A0DEBE581EF72E9E98E6EBA /* Pods-YWDialog_Example */ = {
@@ -185,14 +155,44 @@
 			path = "Target Support Files/Pods-YWDialog_Example";
 			sourceTree = "<group>";
 		};
-		CA220CABF0B4C090D4D215CA7D875523 /* Pod */ = {
+		C524B5927EB6C92DBE3CEC24C43DB337 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				05043DC879D2DDEEDA6C33B9A9C709A6 /* LICENSE */,
-				1B10AF1507B785C96C16B5883858003C /* README.md */,
-				980490D690F3E72807E00647E7579500 /* YWDialog.podspec */,
+				EF7473037C0124D9113A4646B2171BAC /* YWDialog */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CBB63F545A6D2991BD2736DEDEE7240F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2F3DE0D467E9F816D77CBA4B4FF5432 /* YWDialog.xcconfig */,
+				05280869208A828E3802391AB5C7AB27 /* YWDialog-dummy.m */,
+				2FBBDCB5A7F670CF1EDBD2764EA711D1 /* YWDialog-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YWDialog";
+			sourceTree = "<group>";
+		};
+		D6182E864E8CE22FE126730FA560D8E1 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				9CA8CFE3F6F1EC3935305C6B5691F185 /* AlertAction.h */,
+				3E21ECBD9D2BB8D938C9A9B095EB0AB8 /* AlertAction.m */,
+				09444EEB3ECB8A44608DA6DB6E057FA4 /* AlertActionProtocol.h */,
+				0FA3F1521CFF7C808890CDD416B013D7 /* AlertBackWindow.h */,
+				37000772FB6F9FDF26F3D18722E546AE /* AlertBackWindow.m */,
+				2654981D3AC0004EA8FCF79898BA4CB0 /* AlertControllerInfo.h */,
+				142424642578A7F32D411DE9808589D6 /* AlertControllerInfo.m */,
+				DDA11F016D6EF5B9814C7E9E0AF18BAA /* AlertDialog.h */,
+				4892AD784BE1181B69498AA8A8B3A709 /* AlertDialog.m */,
+				25A832B00214C42A960BDD3FF283F918 /* Dialog.h */,
+				65AF5562FA78AB8E1A4160B4EF2A783F /* Dialog.m */,
+				99306276C03573EF72F690CB1297477D /* UIAlertController+Window.h */,
+				D93DB05F43FDD131A124DDEB07D353A4 /* UIAlertController+Window.m */,
+			);
+			name = source;
+			path = YWDialog/Classes/source;
 			sourceTree = "<group>";
 		};
 		ED516E0DBAF9EB4D4D90C0157D07A906 /* Products */ = {
@@ -204,20 +204,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EF7473037C0124D9113A4646B2171BAC /* YWDialog */ = {
+			isa = PBXGroup;
+			children = (
+				8223B3AFCDF2B861560CE03A01EB9B93 /* YWDialog.h */,
+				9CD40BB1A359F6457FEE73840D4849B1 /* Pod */,
+				D6182E864E8CE22FE126730FA560D8E1 /* source */,
+				CBB63F545A6D2991BD2736DEDEE7240F /* Support Files */,
+			);
+			name = YWDialog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		50E5FE4BA668EF43213BEAE01ACFD71C /* Headers */ = {
+		EC25D05DADAC1F46CAEDBFDCF1C2632F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E8FAFC00F443481E208F06B1683FE3 /* AlertAction.h in Headers */,
-				A5F827E0CD1C27516EEE41ABB95BE5FF /* AlertActionProtocol.h in Headers */,
-				0D58ADD44A131919F1A53501CB26BDDE /* AlertBackWindow.h in Headers */,
-				7854C4438BD6908E2FD79C20CA4FB63F /* AlertControllerInfo.h in Headers */,
-				47F6FC8E290D81AB655A9DDA87382DFD /* AlertDialog.h in Headers */,
-				A2940188BFAB46FE6FC1C1A131BABDD9 /* Dialog.h in Headers */,
-				CEBFB81FECCF8484FADDAF4C999D43A4 /* UIAlertController+Window.h in Headers */,
+				FA9A1939829B6FA7EE56F108F03FD8B0 /* AlertAction.h in Headers */,
+				484A3880F93B357BF3D13FEB29168718 /* AlertActionProtocol.h in Headers */,
+				854AE49D3FF7327A9E3961BC56C00B93 /* AlertBackWindow.h in Headers */,
+				FCF8CACAECE4F1A2055BDB990F5328EF /* AlertControllerInfo.h in Headers */,
+				864B4CCA3EF9C0269FB1E8625173DE88 /* AlertDialog.h in Headers */,
+				9B5C3FFA7FE1EC2785FE7760A6C08298 /* Dialog.h in Headers */,
+				C0416CFD39C0019122C51FB1F58CF4B5 /* UIAlertController+Window.h in Headers */,
+				A8BB80484460B0EC2AF05AEC0C4F077F /* YWDialog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,9 +241,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A40F523B7CA55AC8EB9C69B8012F262 /* Build configuration list for PBXNativeTarget "YWDialog" */;
 			buildPhases = (
-				01A02CEF5D8AC40EC2F5EAB45517323E /* Sources */,
+				94E38FC6FA29F5C11CC86419C8F71128 /* Sources */,
 				7B1D1E6E2CF296DEF5236FEBEE55D0DC /* Frameworks */,
-				50E5FE4BA668EF43213BEAE01ACFD71C /* Headers */,
+				EC25D05DADAC1F46CAEDBFDCF1C2632F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -286,17 +299,17 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01A02CEF5D8AC40EC2F5EAB45517323E /* Sources */ = {
+		94E38FC6FA29F5C11CC86419C8F71128 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F823A15692C4389B14AFE409FE576982 /* AlertAction.m in Sources */,
-				9007573EA1D74E96363A4FA03AE901D0 /* AlertBackWindow.m in Sources */,
-				73E2075315017139A2797F4540D0D018 /* AlertControllerInfo.m in Sources */,
-				8B06DCE5F5237EE15492435B0111D086 /* AlertDialog.m in Sources */,
-				021119BA1E3704C40134B413FE5E7667 /* Dialog.m in Sources */,
-				23C393940F47B2ABB1E96953EC35DD9A /* UIAlertController+Window.m in Sources */,
-				AA58B4956FE2240A1085EB060304CECE /* YWDialog-dummy.m in Sources */,
+				B8C1EDB7E969196872D80B22A551F43D /* AlertAction.m in Sources */,
+				9DABF2D43CB3E7BA00D3762C717C69D1 /* AlertBackWindow.m in Sources */,
+				7361CFEA44AC7F434654C4D40EE7FFFD /* AlertControllerInfo.m in Sources */,
+				F0A61716AEC2898F228518E9539776A4 /* AlertDialog.m in Sources */,
+				649B2FBA8AD214B552329C147BAD5EAB /* Dialog.m in Sources */,
+				83A6D8929E93B8391AF54E57A5320618 /* UIAlertController+Window.m in Sources */,
+				20860BDE6F7C9F7FB4F563EC0ACA9824 /* YWDialog-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +441,7 @@
 		};
 		A1FACC44600D28D50436C6B519E887BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AD0DAAB6D60291BD22B5A69248C5F79 /* YWDialog.xcconfig */;
+			baseConfigurationReference = F2F3DE0D467E9F816D77CBA4B4FF5432 /* YWDialog.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -452,7 +465,7 @@
 		};
 		D339B8C29AD1296606A0632A95264178 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AD0DAAB6D60291BD22B5A69248C5F79 /* YWDialog.xcconfig */;
+			baseConfigurationReference = F2F3DE0D467E9F816D77CBA4B4FF5432 /* YWDialog.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
