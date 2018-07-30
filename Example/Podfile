@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YWDialog_Example' do
+  pod 'YWDialog', :path => '../'
+
+  target 'YWDialog_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
