@@ -19,11 +19,6 @@
   },
   "source_files": "YWDialog/Classes/**/*.{h,m,mm,hpp,cpp,c}",
   "public_header_files": "YWDialog/Classes/**/*.h",
-  "resource_bundles": {
-    "YWDialog": [
-      "YWDialog/Assets/*.{png,jpg}"
-    ]
-  },
-  "prefix_header_file": "YWDialog/Classes/YWDialogHeader.h",
+  "prefix_header_file": "YWDialog/Classes/YWDialog.h",
   "frameworks": "UIKit"
 }

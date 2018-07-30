@@ -19,8 +19,8 @@
 /** 适配String和NSMutableString */
 #define DialogStringProtocol NSObject<NSCopying, NSMutableCopying, NSSecureCoding>
 
-#define Dialog_Sheet ([AlertDialog sheet])
-#define Dialog_Alert ([AlertDialog alert])
+#define YWDialog_Sheet ([AlertDialog sheet])
+#define YWDialog_Alert ([AlertDialog alert])
 
 typedef NS_ENUM(NSInteger, AlertDialogStyle) {
     AlertDialogStyleAlert = 0,         // alert

@@ -9,7 +9,7 @@
 #import "YWViewController.h"
 #import <objc/runtime.h>
 #import "AlertDialog+Extension.h"
-#import "YWDialog+Extension.h"
+#import "Dialog+Extension.h"
 
 @interface YWViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -89,7 +89,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
         
-        YWDialog_Alert
+        Dialog_Alert
         .appendTitle(@"崔贺")
         .appendMessage(@"丫头")
         .appendNorlmalAction(@"哈哈哈", ^{
@@ -134,7 +134,7 @@
         
     }
     else if (indexPath.row == 1) {
-        YWDialog_Alert
+        Dialog_Alert
         .appendTitle(@"崔贺")
         .appendMessage(@"丫头")
         .appendAction(@"ddd", 0, nil)

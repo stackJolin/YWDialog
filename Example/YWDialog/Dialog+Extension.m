@@ -6,14 +6,14 @@
 //  Copyright © 2018年 zhuhoulin. All rights reserved.
 //
 
-#import "YWDialog+Extension.h"
+#import "Dialog+Extension.h"
 
-@implementation YWDialog (Extension)
+@implementation Dialog (Extension)
 
 //*****************************************************************
 // MARK: - getter
 //*****************************************************************
-- (YWDialog *(^)(NSString *))presentDefaultAlert {
+- (Dialog *(^)(NSString *))presentDefaultAlert {
     return ^(NSString *message) {
         self.appendTitle(@"")
         .appendMessage(message)
@@ -23,7 +23,7 @@
     };
 }
 
-- (YWDialog *(^)(void))appendCancelAction {
+- (Dialog *(^)(void))appendCancelAction {
     return ^() {
         [self addCancelActionWithTitle:@"取消"];
         return self;
@@ -34,7 +34,7 @@
 // MARK: - setter
 //         分类中所有的属性的setter方法都是为了消除警告以及调用分类属性声明setter方法时的崩溃
 //*****************************************************************
-- (void)setPresentDefaultAlert:(YWDialog *(^)(NSString *))presentDefaultAlert{}
-- (void)setAppendCancelAction:(YWDialog *(^)(void))appendCancelAction{}
+- (void)setPresentDefaultAlert:(Dialog *(^)(NSString *))presentDefaultAlert{}
+- (void)setAppendCancelAction:(Dialog *(^)(void))appendCancelAction{}
 
 @end
