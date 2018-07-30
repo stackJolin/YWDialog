@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YWDialog'
-  s.version          = '0.1.1'
+  s.version          = '0.1.7'
   s.summary          = 'YuWaniOS - Alert'
 
   s.homepage         = 'https://github.com/stackJolin/YWDialog'
