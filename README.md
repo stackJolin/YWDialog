@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/YWDialog.svg?style=flat)](https://cocoapods.org/pods/YWDialog)
 [![Platform](https://img.shields.io/cocoapods/p/YWDialog.svg?style=flat)](https://cocoapods.org/pods/YWDialog)
 
+It's based on UIAlertController
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
